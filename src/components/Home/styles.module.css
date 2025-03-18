@@ -1,0 +1,79 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.title {
+  margin: 8%;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 32%;
+}
+
+.fisrttitle {
+  font-family: 'Microsoft YaHei';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 120%;
+  /* or 67px */
+
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.fontcolor {
+  color: #000000;
+}
+
+.subtitle {  
+  font-family: 'kubegems';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  color: #1E88E5;
+  margin-bottom: 50px;
+}
+
+.account {
+  display: none;
+  position: absolute;
+  right: 322px;
+  top: 52px;
+  background-color: #fff;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, .2);
+  transition-duration: 200ms;
+  transition-property: opacity, transform, visibility;
+  transition-timing-function: cubic-bezier(0.08, 0.52, 0.52, 1);
+  font-size: 0.9rem;
+
+  &:hover {
+    display: block;
+  }
+}
+
+
+.info {
+  background-color: rgba(0, 0, 0, .05);
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.3rem 0;
+}
+
+.img {
+  margin-left: 2%;
+  width: 90%;
+  margin-top: 15%;
+}

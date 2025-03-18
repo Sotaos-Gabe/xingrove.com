@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'XinGrove',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -77,10 +77,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'XinGrove',
-        // logo: {
-        //   alt: 'XinGrove',
-        //   src: 'img/xinGrove.svg',
-        // },
+        logo: {
+          alt: 'XinGrove',
+          src: 'img/icon.png',
+        },
         items: [
           // {
           //   type: 'docSidebar',

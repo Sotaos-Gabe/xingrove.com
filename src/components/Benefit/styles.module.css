@@ -1,0 +1,107 @@
+.benefit {
+  /* // height: calc(100vh - var(--ifm-navbar-height)); */
+  background: url("/img/bg.png") no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin-top: 80px;
+
+  @media (max-width: 996px) {
+    height: auto;
+  }
+}
+
+.benefit_title {
+  font-family: 'kubegems';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+
+  color: #1E88E5;
+  margin-top: 30px;
+}
+
+.benefit_img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.benefit_desc {
+  text-align: center;
+  margin: 20%;
+
+  @media (max-width: 996px) {
+    margin: 5%;
+  }
+}
+
+.benefit_desc_left {
+  margin-left: 10% !important;
+  margin-right: 2% !important;
+  background-color: #ffffff;
+  margin: 10% 12%;
+  box-shadow: 0px 0px 15px #E9E9E9;
+  border-radius: 3px;
+
+  @media (max-width: 996px) {
+    margin-left: 12% !important;
+    margin-right: 12% !important;
+  }
+}
+
+.benefit_desc_middle {
+  margin-left: 6% !important;
+  margin-right: 6% !important;
+  background-color: #ffffff;
+  margin: 10% 12%;
+  box-shadow: 0px 0px 15px #E9E9E9;
+  border-radius: 3px;
+
+  @media (max-width: 996px) {
+    margin-left: 12% !important;
+    margin-right: 12% !important;
+  }
+}
+
+.benefit_desc_right {
+  margin-left: 2% !important;
+  margin-right: 10% !important;
+  background-color: #ffffff;
+  margin: 10% 12%;
+  box-shadow: 0px 0px 15px #E9E9E9;
+  border-radius: 3px;
+
+  @media (max-width: 996px) {
+    margin-left: 12% !important;
+    margin-right: 12% !important;
+  }
+}
+
+.benefit_desc_title {
+  /* // font-family: 'kubegems'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+
+  color: #1E88E5;
+}
+
+.benefit_desc_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  /* or 21px */
+
+  color: #515151;
+  margin-top: 20px;
+  height: 160px;
+}
