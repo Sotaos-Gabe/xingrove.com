@@ -27,8 +27,7 @@
     "rc-scroll-anim": "^2.7.6",
     "rc-texty": "^0.2.0",
     "react-slick": "^0.29.0",
-    "sass": "^1.49.7",
-    "video-react": "^0.15.0"
+    "sass": "^1.49.7"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",
