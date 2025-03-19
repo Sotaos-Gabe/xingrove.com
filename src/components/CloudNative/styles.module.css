@@ -7,34 +7,30 @@
 }
 
 
-  .img_right {
-      margin-left: 20%;
-      width: 75%;
-      margin-top: 7%;
-
-
-    }
+.img_right {
+  margin-left: 20%;
+  width: 75%;
+  margin-top: 7%;
+}
 
 .left {
-      margin-left: 5%;
-      width: 75%;
-      margin-top: 5%;
+  margin-left: 5%;
+  width: 75%;
+  margin-top: 5%;
 
-      @media (max-width: 996px) {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 0%;
-      }
-    }
-  
-
-
+  @media (max-width: 996px) {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+}
 
 .title_left {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 10%;
   text-align: right;
+  text-align: center;
 }
 
 .title_right {
@@ -45,56 +41,57 @@
   
 
 .subtitle {
-    font-family: 'kubegems';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 120%;
-    /* or 38px */
+  font-family: 'kubegems';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 120%;
+  /* or 38px */
 
-    color: #1E88E5;
-    margin-bottom: 10px;
-  }
+  color: #1E88E5;
+  margin-bottom: 10px;
+}
 
 .fisrttitle {
-    /* // font-family: 'kubegems'; */
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 120%;
-    /* or 67px */
-
-    color: #FECA03;
-  }
+  /* // font-family: 'kubegems'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  margin-bottom: 10px;
+  /* or 67px */
+  color: #FECA03;
+}
 
 .desc {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 200%;
-    /* or 28px */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  /* or 28px */
 
-    /* Black */
-    color: #000000;
-    margin-bottom: 10px;
-  }
+  /* Black */
+  color: #000000;
+  margin-bottom: 8px;
+  text-align: center;
+}
 
 .fontcolor {
-    color: #1E88E5;
-  }
+  color: #1E88E5;
+}
 
 .core {
-    /* // font-family: 'kubegems'; */
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 120%;
-    /* identical to box height, or 58px */
-    text-align: center;
-  
-    color: #1E88E5;
-    margin-top: 80px;
+  /* // font-family: 'kubegems'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+
+  color: #1E88E5;
+  margin-top: 80px;
 }
 
 .core_desc {

@@ -13,12 +13,12 @@ const HomePage = (props) => {
         <div className='col col--6'>
           <div className={styles.title}>
             <div className={styles.fisrttitle}>Xingrove</div>
-            <div className={styles.subtitle}>释放开源AI的力量，赋能您的企业。</div>
-            <TweenOne
+            <div className={styles.subtitle}>释放开源AI的力量，赋能您的企业</div>
+            {/* <TweenOne
               style={{ opacity: 0, marginBottom: -100, position: 'relative' }}
               animation={{ opacity: 1, marginBottom: 0 }}
             >
-              {/* <Link
+              <Link
                 key='start'
                 className={clsx(
                   'button button--primary button--lg',
@@ -26,14 +26,14 @@ const HomePage = (props) => {
                 style={{ marginRight: '15px', marginTop: '5px', float: 'left', width: '150px' }}
                 to={useBaseUrl('docs/installation/kubegems-install/self-hosted')}>
                 快速开始
-              </Link> */}
+              </Link>
 
-              {/* <Link
+              <Link
                 key='start'
                 style={{ marginRight: '15px', marginTop: '5px', float: 'left', width: '150px' }}
                 to="https://demo.kubegems.io">
                 在线演示
-              </Link> */}
+              </Link>
 
               <div className={styles.account}>
                 <div className={styles.info}>账号: admin</div>
@@ -43,15 +43,15 @@ const HomePage = (props) => {
               <div
                 style={{ marginRight: '15px', marginTop: '5px', float: 'left', lineHeight: '46px' }}
               >
-                {/* <img src='./img/page/play.svg' width="45" style={{ cursor: 'pointer' }} onClick={() => { props.handleShowPlay() }}></img>
+                <img src='./img/page/play.svg' width="45" style={{ cursor: 'pointer' }} onClick={() => { props.handleShowPlay() }}></img>
                 <div style={{
                   float: 'right',
                   fontFamily: 'Roboto',
                   fontSize: '16px'
-                }}>介绍视频</div> */}
+                }}>介绍视频</div>
               </div>
               <div style={{ clear: 'both' }} />
-            </TweenOne>
+            </TweenOne> */}
           </div>
         </div>
         <div className='col col--6'>
